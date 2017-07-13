@@ -45,8 +45,10 @@ import Upload from './components/upload';
 import { Row, Col } from './components/grid';
 import { Select, Option, OptionGroup } from './components/select';
 import locale from './locale';
+import huangbiao from './components/huangbiao';
 
 const iview = {
+    huangbiao,
     Affix,
     Alert,
     BackTop,

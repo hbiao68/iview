@@ -18,6 +18,10 @@ Vue.config.debug = true;
 const router = new VueRouter({
     routes: [
         {
+            path: '/huangbiao',
+            component: require('./routers/huangbiao.vue')
+        },
+        {
             path: '/affix',
             component: require('./routers/affix.vue')
         },
